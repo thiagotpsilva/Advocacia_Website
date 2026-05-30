@@ -50,7 +50,7 @@
   --secondary-dark-color: #444;
   /* --light-color: #fff; */
   --gray-color: #ccc;
-  --dark-overlay: rgba(0, 0, 0, 0.74);
+  --dark-overlay: rgba(0, 0, 0, 0.32);
   /* --dark-overlay: rgba(0, 0, 0, 1); */
   --text-shadow: 1px 3px rgba(0, 0, 0, 0.72);
   --border-radius: 0.5rem;

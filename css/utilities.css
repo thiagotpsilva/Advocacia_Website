@@ -110,12 +110,13 @@
 }
 
 .btn__dark {
-  background-color: var(--dark-color);
+  background-color: var(--secondary-color);
+  color: var(--light-color);
 }
 
 .btn__light {
   background-color: var(--light-color);
-  color: var(--dark-color);
+  color: var(--secondary-color);
 }
 .btn__container {
   display: flex;
