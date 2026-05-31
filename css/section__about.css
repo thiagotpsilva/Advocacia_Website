@@ -21,9 +21,10 @@
 }
 
 .about__header {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   color: var(--primary-color);
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 /* .about__header i {
@@ -32,18 +33,19 @@
 
 .about__subheader {
   font-size: 3rem;
-  /* text-shadow: 1px 3px rgba(0, 0, 0, 0.1); */
   color: var(--secondary-color);
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.3;
+  font-weight: 300;
+  /* text-shadow: 1px 3px rgba(0, 0, 0, 0.1); */
 }
 
 .about__content {
   font-size: 1.8rem;
   color: var(--secondary-color);
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 200;
   text-align: justify;
 }
 

@@ -33,6 +33,7 @@
 .navbar a {
   color: var(--light-color);
   font-weight: 400;
+  font-weight: 300;
 }
 
 .navbar ul {
@@ -50,7 +51,8 @@
 }
 
 .navbar ul li a.current-link {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  border-bottom: 0.2rem solid var(--primary-color);
   /* font-weight: 400; */
 }
 
