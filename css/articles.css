@@ -2,6 +2,7 @@
 #hero-civel {
   height: 50vh;
   background-color: var(--secondary-color);
+  z-index: 3;
 }
 
 #hero-civel .hero-content {
@@ -179,10 +180,14 @@
 
 .article__subheader {
   width: fit-content;
-  border-bottom: 0.2rem solid var(--primary-color);
+
   color: var(--secondary-color);
   text-transform: unset;
   margin-top: 3rem;
+}
+
+.subheader__border {
+  border-bottom: 0.2rem solid var(--primary-color);
 }
 
 .article__text {
@@ -229,4 +234,76 @@
   margin-bottom: 0.5rem;
   margin-top: 0.4rem;
   background-color: var(--secondary-color);
+}
+
+/* ASIDE: CATEGORIES */
+.card__category {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+
+  color: var(--light-color);
+  border-radius: 0;
+}
+.category__list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #333;
+  width: 90%;
+}
+
+.category__list li:last-child {
+  border-bottom: none;
+}
+.category__list li a {
+  color: var(--secondary-dark-color);
+  text-transform: none;
+  font-weight: 300;
+}
+
+.category__list li a.current__link {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.category__list li a:hover {
+  color: var(--primary-color);
+}
+
+.category__list i {
+  margin-right: 0.6rem;
+}
+
+/* CARD: CONTACT US */
+.article__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  /* background-color: var(--primary-color); */
+}
+
+.article__card h2 {
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  line-height: 1;
+  /* color: var(--secondary-color); */
+}
+
+.article__card .btn {
+  width: 22rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--secondary-color);
+  opacity: 1;
+}
+
+.article__card i:first-of-type {
+  margin-right: 0.7rem;
+  /* color: green; */
+  font-weight: bold;
+}
+
+.article__card i:last-of-type {
+  margin-left: 0.7rem;
 }
