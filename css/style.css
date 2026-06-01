@@ -11,15 +11,15 @@
 .switcher li {
   border-radius: 1rem;
   padding: 0.75rem 3rem;
-  /* background-color: #ccc; */
   background-color: var(--secondary-color);
   color: var(--light-color);
   cursor: pointer;
   transition: 0.2s linear;
   font-size: 1.8rem;
-  /* text-transform: uppercase; */
   user-select: none;
   margin: 5px;
+  /* text-transform: uppercase; */
+  /* background-color: #ccc; */
 }
 
 .switcher li.active {
@@ -43,16 +43,16 @@
 }
 
 .gallery-filter div::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: 112; */
   background-color: rgba(0, 0, 0, 0.225);
   filter: brightness(60%);
   z-index: -11;
+  /* z-index: 112; */
 }
 
 .gallery-filter .filter-content {
@@ -308,7 +308,7 @@
 }
 
 #section-boats .item::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   background: inherit;
@@ -345,7 +345,7 @@
 }
 
 #section-boats .items .item-image::before {
-  content: '';
+  content: "";
   display: block;
   padding-top: 75%;
   overflow: hidden;
@@ -372,7 +372,8 @@
   z-index: 1;
   color: var(--white-color);
   transform: translateY(-20%);
-  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
+  transition:
+    opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
     transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
   transition-delay: 400ms;
 }
@@ -498,7 +499,7 @@ input {
   transition: all 0.15s ease-in;
 }
 
-input[type='email'] {
+input[type="email"] {
   min-width: 30rem;
   margin-bottom: 2rem;
 }

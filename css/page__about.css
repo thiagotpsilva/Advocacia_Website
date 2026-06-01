@@ -8,7 +8,7 @@
   align-items: flex-start;
 }
 
-#hero__about.hero::before {
+/* #hero__about.hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -17,7 +17,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.32);
   z-index: -1;
-}
+} */
 
 .office__content {
   display: flex;
@@ -76,9 +76,9 @@
   background-color: var(--primary-color);
   padding-bottom: 5rem;
 }
-.section__culture .section__header {
-  /* color: #fff; */
-}
+/* .section__culture .section__header {
+  color: #fff;
+} */
 .culture__card {
   /* background-color: unset; */
   /* background-color: #fff !important; */

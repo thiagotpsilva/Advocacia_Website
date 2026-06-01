@@ -1,9 +1,10 @@
 /* HERO: INFO */
 #hero-penal {
-  background-image: url('../images/gallery/esa_01.jpeg');
+  background-image: url("../images/gallery/esa_01.jpeg");
   background-position: top;
   background-repeat: no-repeat;
   height: 45vh;
+  background-color: var(--secondary-color);
 }
 
 #hero-penal .hero-content {
@@ -11,13 +12,13 @@
 }
 
 #hero-penal.hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.32);
   z-index: -1;
 }
 
@@ -35,7 +36,7 @@
 }
 
 .article__image::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

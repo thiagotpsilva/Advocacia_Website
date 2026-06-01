@@ -6,7 +6,6 @@
   width: 100%;
   height: 7rem;
   z-index: 1000;
-  /* border-bottom: 0.1rem solid var(--primary-color); */
 }
 
 .navbar .container {
@@ -51,19 +50,14 @@
 }
 
 .navbar ul li a.current-link {
-  /* color: var(--primary-color); */
   border-bottom: 0.2rem solid var(--primary-color);
-  /* font-weight: 400; */
 }
 
 .navbar.active {
   transition: background 0.6s ease-in-out;
   background-color: var(--secondary-color);
-  /* background-color: var(--dark-color); */
-  /* background-color: #f7c501; */
   z-index: 1000;
   border-bottom: 0.3rem solid var(--primary-color);
-  /* background-color: red; */
 }
 
 /* HAMBURGER BTN */
@@ -151,7 +145,7 @@
 .mobile-main-menu ul li {
   margin-bottom: 20px;
   font-size: 1.8rem;
-  border-bottom: 0.1rem solid var(--secondary-dark-color);
+  border-bottom: 0.1rem solid var(--secondary-color);
   width: 100%;
   text-align: left;
   padding-bottom: 8px;
@@ -161,7 +155,7 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 28px;
-  color: var(--dark-color);
+  color: var(--secondary-color);
   opacity: 0.6;
   transition: color 0.6s;
 }
