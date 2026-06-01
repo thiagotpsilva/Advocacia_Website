@@ -1,0 +1,232 @@
+/* HERO: CÍVEL*/
+#hero-civel {
+  height: 50vh;
+  background-color: var(--secondary-color);
+}
+
+#hero-civel .hero-content {
+  align-items: flex-start;
+}
+
+/* BREADCRUMB */
+.section__breadcrumb {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: sticky;
+  top: 6.9rem;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+}
+
+.section__breadcrumb .flex__container {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.breadcrumb__nav {
+  display: flex;
+}
+
+.breadcrumb__nav ul {
+  display: flex;
+}
+
+.breadcrumb__nav ul li a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  opacity: 0.7;
+}
+
+.breadcrumb__nav ul li a:hover {
+  opacity: 1;
+}
+
+.breadcrumb__nav a.current__link {
+  color: var(--secondary-color);
+  opacity: 1;
+}
+
+/* CONTAINERS */
+
+/* INNER PAGE CONTAINER */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 6;
+}
+
+/* TEXTS */
+
+.text-large {
+  text-transform: lowercase;
+  font-size: 10rem !important;
+  font-weight: 700;
+  opacity: 1;
+  /* background-color: var(--cont-color); */
+}
+
+.text-bold {
+  text-transform: lowercase;
+  font-size: 8rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* BACKGROUNDS */
+.grey-bg {
+  background-color: var(--secondary-color);
+}
+
+/* .flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  background-color: blue;
+} */
+/* PADDING */
+/* BACKGROUNDS */
+/* .dark-bg {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+} */
+/* .btn-dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+} */
+
+/* 
+.btn-secondary {
+  background-color: var(--secondary-color);
+  background-color: var(--cont-color);
+}
+
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--secondary-color);
+} */
+/* CARDS */
+/* .card { */
+/* background: var(--white-color); */
+/* padding: 1rem; */
+/* } */
+/* 
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+.text-dark {
+  color: var(--dark-color) !important;
+} */
+
+/* 
+.secondary-bg {
+  background-color: var(--secondary-color) !important;
+  color: var(--light-color);
+} */
+
+/* .primary-bg {
+  background-color: var(--primary-color) !important;
+} */
+/* 
+.dark__bg {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+} */
+
+/* ARTICLE: CONTENT */
+#article {
+  background-color: var(--light-color);
+}
+
+.article__image {
+  position: relative;
+  height: 18rem;
+}
+
+.article__image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+
+.article__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ARTICLE TEXTS */
+.article__title {
+  font-size: 3rem;
+  text-transform: unset;
+  line-height: 1.2;
+}
+
+.article__subheader {
+  width: fit-content;
+  border-bottom: 0.2rem solid var(--primary-color);
+  color: var(--secondary-color);
+  text-transform: unset;
+  margin-top: 3rem;
+}
+
+.article__text {
+  text-align: justify;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-left: 1rem;
+}
+
+.article__list {
+  margin-left: 3rem;
+}
+
+.article__list li::marker {
+  color: var(--primary-color);
+}
+
+.article__items {
+  font-weight: 300;
+  list-style-type: square;
+  margin-top: 0.2rem;
+  margin-left: 3rem;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-color);
+  padding: 0.5rem 1rem;
+}
+
+.meta i {
+  margin-right: 0.5rem;
+  color: var(--primary-color);
+}
+
+.category {
+  display: inline-block;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.4rem;
+  background-color: var(--secondary-color);
+}

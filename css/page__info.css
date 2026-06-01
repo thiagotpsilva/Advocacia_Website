@@ -8,16 +8,6 @@
   align-items: flex-start;
 }
 
-/* #hero-info.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.32);
-} */
-
 /* SECTION: FAQ */
 #section__faq .flex__container {
   flex-direction: column;

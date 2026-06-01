@@ -242,7 +242,7 @@
   grid-column: 4 / span 1;
 }
 
-.category-workout {
+/* .category-workout {
   background: #c72727;
 }
 
@@ -260,7 +260,7 @@
 
 .category-health {
   background: #193d6a;
-}
+} */
 
 /* HOME */
 
@@ -414,32 +414,6 @@
 
 #section-articles .grid-3 > *:last-child {
   grid-column: 2 / span 2;
-}
-
-.category {
-  display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 0.4rem 0.6rem;
-  border-radius: 15px;
-  margin-bottom: 0.5rem;
-}
-
-.category-beaches {
-  background: var(--beaches-color);
-}
-
-.category-ent {
-  background: var(--ent-color);
-}
-
-.category__penal {
-  background-color: var(--dark-color);
-  text-transform: none;
-  /* padding: 1rem; */
-}
-.category-food {
-  background: var(--food-color);
 }
 
 #section-articles h3 a {
