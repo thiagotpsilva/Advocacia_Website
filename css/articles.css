@@ -70,7 +70,6 @@
   font-size: 10rem !important;
   font-weight: 700;
   opacity: 1;
-  /* background-color: var(--cont-color); */
 }
 
 .text-bold {
@@ -84,65 +83,6 @@
 .grey-bg {
   background-color: var(--secondary-color);
 }
-
-/* .flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-
-  background-color: blue;
-} */
-/* PADDING */
-/* BACKGROUNDS */
-/* .dark-bg {
-  background-color: var(--dark-color);
-  color: var(--light-color);
-} */
-/* .btn-dark {
-  background-color: var(--dark-color);
-  color: var(--light-color);
-} */
-
-/* 
-.btn-secondary {
-  background-color: var(--secondary-color);
-  background-color: var(--cont-color);
-}
-
-.btn-light {
-  background-color: var(--light-color);
-  color: var(--secondary-color);
-} */
-/* CARDS */
-/* .card { */
-/* background: var(--white-color); */
-/* padding: 1rem; */
-/* } */
-/* 
-.text-secondary {
-  color: var(--secondary-color) !important;
-}
-.text-dark {
-  color: var(--dark-color) !important;
-} */
-
-/* 
-.secondary-bg {
-  background-color: var(--secondary-color) !important;
-  color: var(--light-color);
-} */
-
-/* .primary-bg {
-  background-color: var(--primary-color) !important;
-} */
-/* 
-.dark__bg {
-  background-color: var(--dark-color);
-  color: var(--light-color);
-} */
 
 /* ARTICLE: CONTENT */
 #article {
@@ -280,14 +220,12 @@
   align-items: center;
   text-align: center;
   padding: 1rem;
-  /* background-color: var(--primary-color); */
 }
 
 .article__card h2 {
   text-transform: uppercase;
   margin-top: 0.5rem;
   line-height: 1;
-  /* color: var(--secondary-color); */
 }
 
 .article__card .btn {

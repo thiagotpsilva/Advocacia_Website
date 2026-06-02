@@ -1,0 +1,210 @@
+#section__services {
+  min-height: 50vh;
+}
+
+#section__services .grid__container {
+  gap: 0;
+  align-items: flex-start;
+  margin-bottom: 0rem;
+}
+
+.services__card {
+  height: 100%;
+  border: none;
+  padding: 3rem;
+  color: var(--light-color);
+}
+
+.card__number {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.card__number.dark {
+  color: var(--secondary-color);
+}
+
+.services__card h3 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.services__card p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 200;
+}
+
+.services__card:first-of-type {
+  background-color: var(--secondary-color);
+  border-top: 0.2rem solid var(--light-color);
+}
+
+.services__card:nth-of-type(2) {
+  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--primary-color);
+  border-top: 0.2rem solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.services__card:nth-child(3) {
+  background-color: var(--secondary-color);
+  border-top: 0.2rem solid var(--light-color);
+}
+
+.services__card:nth-child(4) {
+  border-top: 0.2rem solid var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* SECTION: ABOUT */
+.section__about {
+  min-height: 90vh;
+  position: relative;
+}
+
+.section__about .container {
+  height: 100%;
+}
+
+.section__about .grid__container {
+  gap: 3rem;
+}
+
+.section__about .grid__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.about__header {
+  font-size: 2.8rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.about__subheader {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.about__content {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.section__about li {
+  font-size: 1.8rem;
+  margin-top: 0.2rem;
+  font-weight: 300;
+  color: var(--dark-color);
+}
+
+.section__about li i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+.section__about .btn {
+  margin-top: 2.5rem;
+}
+
+.grid__images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.grid__images img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.grid__images img:nth-of-type(2) {
+  object-position: right;
+}
+
+.about__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 52%;
+  left: 40%;
+  width: 30rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-weight: bold;
+  border-radius: var(--border-radius);
+}
+
+.box__number {
+  font-size: 5rem;
+  color: var(--light-color);
+}
+
+.box__text {
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--light-color);
+  margin-left: 1rem;
+}
+
+/* SECTION BTN */
+#section__btn {
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  z-index: 1;
+  height: 55vh;
+}
+
+#section__btn .flex__container {
+  flex-direction: column;
+}
+
+#section__btn .flex__container > div {
+  display: flex;
+}
+
+#section__btn a {
+  margin: 0 0.4rem;
+}
+
+#section__btn p {
+  color: var(--light-color);
+  font-size: 2.3rem;
+  max-width: 75%;
+  margin: 0 auto;
+  margin-bottom: 1.82rem;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+#section__btn h2 {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}

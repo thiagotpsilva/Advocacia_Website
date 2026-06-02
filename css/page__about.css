@@ -8,36 +8,12 @@
   align-items: flex-start;
 }
 
-/* #hero__about.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.32);
-  z-index: -1;
-} */
-
 .office__content {
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
-  /* height: 70vh; */
-  /* padding-right: 4rem; */
-  /* width: 50%; */
-  /* background-color: red; */
   justify-content: flex-end;
   position: relative;
-
-  /* padding-left: 44rem; */
-  /* background-color: red; */
 }
-
-/* .section__office img {
-  border-radius: var(--border-radius);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-} */
 
 .section__office .grid__container {
   gap: 2rem;
@@ -61,7 +37,6 @@
 }
 .office__image img {
   height: 100%;
-  /* border: 0.4rem solid var(--dark-color); */
   width: 100%;
   object-fit: cover;
 }
@@ -71,22 +46,14 @@
 }
 
 .section__culture {
-  /* background-color: var(--light-color); */
   color: var(--secondary-color);
   background-color: var(--primary-color);
   padding-bottom: 5rem;
 }
-/* .section__culture .section__header {
-  color: #fff;
-} */
+
 .culture__card {
-  /* background-color: unset; */
-  /* background-color: #fff !important; */
-  /* color: var(--dark-color); */
   width: unset;
   height: fit-content;
-  /* z-index: 1; */
-  /* background-color: red; */
 }
 
 .section__culture .section__header .header__main::after,
@@ -96,27 +63,23 @@
 
 .culture__card:hover {
   background-color: var(--secondary-color);
-  /* opacity: 0.9; */
   color: var(--primary-color);
-  /* transform: scale(1.02); */
 }
+
 .section__tech .grid__container {
   gap: 2rem;
 }
+
 .section__tech .office__image {
   height: 315px;
 }
+
 .section__tech .grid__container .office__content {
-  /* background-color: red; */
-  /* align-items: flex-start; */
-  /* height: 100%; */
-  /* display: flex; */
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .office__image {
-  /* width: 150px; */
-  /* height: 150px; */
   position: relative;
   z-index: 1;
   border-radius: 4rem;
@@ -130,7 +93,6 @@
   position: absolute;
   border-radius: var(--border-radius);
   top: 0;
-
   left: 0;
   width: 100%;
   height: 100%;

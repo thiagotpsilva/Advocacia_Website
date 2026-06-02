@@ -91,11 +91,11 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-/* 
+
 .btn__dark {
   background-color: var(--secondary-color);
   color: var(--light-color);
-} */
+}
 
 .btn__light {
   background-color: var(--light-color);
