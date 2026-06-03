@@ -1,5 +1,16 @@
 @media (max-width: 768px) {
+  /* BODY */
+  body {
+    overflow-x: hidden;
+  }
+
   /* NAVBAR */
+  .mobile-only {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
 
   /* HOME: HERO */
   #hero-home {
@@ -171,5 +182,84 @@
     display: flex;
     align-items: center;
     width: 100%;
+  }
+
+  /* HEROS */
+  .hero__title {
+    margin-bottom: 0;
+    font-size: 3.5rem;
+  }
+
+  /* DUVIDAS FREQUENTES */
+  #hero-info {
+    height: 18rem;
+  }
+  /* ESCRITÓRIO */
+  #hero__about {
+    height: 18rem;
+  }
+  .section__culture {
+    padding-bottom: 3rem;
+  }
+  .section__culture .flex__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 12rem;
+    padding: 0.51rem 0.51rem;
+    min-height: 6rem;
+    width: 20%;
+  }
+  .section__culture .card__title {
+    font-size: 2rem;
+  }
+  .section__culture .grid__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .section__office .container:last-child .grid__5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section__office .container:last-child .grid__5 a:last-of-type img {
+    display: none;
+  }
+
+  /* AREAS DE ATUAÇÃO */
+  #hero__areas {
+    height: 18rem;
+  }
+
+  /* ARTICLES */
+  #hero-civel {
+    height: 18rem;
+  }
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .category {
+    font-size: 1.2rem;
+    word-wrap: none;
+    text-align: center;
+    width: 50%;
+    margin-left: 1rem;
+  }
+  .section__breadcrumb {
+    display: flex;
+    justify-content: space-between;
+    min-height: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__breadcrumb h2 {
+    font-size: 1.3rem;
+    display: none;
   }
 }
