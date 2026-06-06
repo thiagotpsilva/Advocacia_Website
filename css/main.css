@@ -132,6 +132,38 @@ img {
   border-bottom: 0.3rem solid var(--primary-color);
 }
 
+/* NAVBAR DROPDOW */
+.navbar .navbar_dropdown {
+  display: none;
+  position: absolute;
+  background-color: var(--secondary-color);
+}
+
+.navbar_item:hover > .navbar_dropdown {
+  display: inherit;
+}
+
+.nested_item {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  z-index: 1000;
+}
+
+.nested_item a {
+  text-transform: unset;
+  font-size: 1.7rem;
+  padding: 0;
+}
+
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
+}
+
 /* HAMBURGER BTN */
 .hamburger {
   position: fixed;
